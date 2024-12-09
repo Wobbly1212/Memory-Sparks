@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C7B11DDC2D070EE4002FF212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7B11DC32D070EE3002FF212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7B11DCA2D070EE3002FF212;
+			remoteInfo = "Memory Sparks";
+		};
+		C7B11DE62D070EE4002FF212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7B11DC32D070EE3002FF212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7B11DCA2D070EE3002FF212;
+			remoteInfo = "Memory Sparks";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7B11DCB2D070EE3002FF212 /* Memory Sparks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memory Sparks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B11DDB2D070EE4002FF212 /* Memory SparksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memory SparksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B11DE52D070EE4002FF212 /* Memory SparksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memory SparksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C7B11DCD2D070EE3002FF212 /* Memory Sparks */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Memory Sparks";
+			sourceTree = "<group>";
+		};
+		C7B11DDE2D070EE4002FF212 /* Memory SparksTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Memory SparksTests";
+			sourceTree = "<group>";
+		};
+		C7B11DE82D070EE4002FF212 /* Memory SparksUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Memory SparksUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7B11DC82D070EE3002FF212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B11DD82D070EE4002FF212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B11DE22D070EE4002FF212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7B11DC22D070EE3002FF212 = {
+			isa = PBXGroup;
+			children = (
+				C7B11DCD2D070EE3002FF212 /* Memory Sparks */,
+				C7B11DDE2D070EE4002FF212 /* Memory SparksTests */,
+				C7B11DE82D070EE4002FF212 /* Memory SparksUITests */,
+				C7B11DCC2D070EE3002FF212 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7B11DCC2D070EE3002FF212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7B11DCB2D070EE3002FF212 /* Memory Sparks.app */,
+				C7B11DDB2D070EE4002FF212 /* Memory SparksTests.xctest */,
+				C7B11DE52D070EE4002FF212 /* Memory SparksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7B11DCA2D070EE3002FF212 /* Memory Sparks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B11DEF2D070EE4002FF212 /* Build configuration list for PBXNativeTarget "Memory Sparks" */;
+			buildPhases = (
+				C7B11DC72D070EE3002FF212 /* Sources */,
+				C7B11DC82D070EE3002FF212 /* Frameworks */,
+				C7B11DC92D070EE3002FF212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C7B11DCD2D070EE3002FF212 /* Memory Sparks */,
+			);
+			name = "Memory Sparks";
+			packageProductDependencies = (
+			);
+			productName = "Memory Sparks";
+			productReference = C7B11DCB2D070EE3002FF212 /* Memory Sparks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7B11DDA2D070EE4002FF212 /* Memory SparksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B11DF22D070EE4002FF212 /* Build configuration list for PBXNativeTarget "Memory SparksTests" */;
+			buildPhases = (
+				C7B11DD72D070EE4002FF212 /* Sources */,
+				C7B11DD82D070EE4002FF212 /* Frameworks */,
+				C7B11DD92D070EE4002FF212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7B11DDD2D070EE4002FF212 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C7B11DDE2D070EE4002FF212 /* Memory SparksTests */,
+			);
+			name = "Memory SparksTests";
+			packageProductDependencies = (
+			);
+			productName = "Memory SparksTests";
+			productReference = C7B11DDB2D070EE4002FF212 /* Memory SparksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7B11DE42D070EE4002FF212 /* Memory SparksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B11DF52D070EE4002FF212 /* Build configuration list for PBXNativeTarget "Memory SparksUITests" */;
+			buildPhases = (
+				C7B11DE12D070EE4002FF212 /* Sources */,
+				C7B11DE22D070EE4002FF212 /* Frameworks */,
+				C7B11DE32D070EE4002FF212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7B11DE72D070EE4002FF212 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C7B11DE82D070EE4002FF212 /* Memory SparksUITests */,
+			);
+			name = "Memory SparksUITests";
+			packageProductDependencies = (
+			);
+			productName = "Memory SparksUITests";
+			productReference = C7B11DE52D070EE4002FF212 /* Memory SparksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7B11DC32D070EE3002FF212 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					C7B11DCA2D070EE3002FF212 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					C7B11DDA2D070EE4002FF212 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C7B11DCA2D070EE3002FF212;
+					};
+					C7B11DE42D070EE4002FF212 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C7B11DCA2D070EE3002FF212;
+					};
+				};
+			};
+			buildConfigurationList = C7B11DC62D070EE3002FF212 /* Build configuration list for PBXProject "Memory Sparks" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7B11DC22D070EE3002FF212;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C7B11DCC2D070EE3002FF212 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7B11DCA2D070EE3002FF212 /* Memory Sparks */,
+				C7B11DDA2D070EE4002FF212 /* Memory SparksTests */,
+				C7B11DE42D070EE4002FF212 /* Memory SparksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7B11DC92D070EE3002FF212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B11DD92D070EE4002FF212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B11DE32D070EE4002FF212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7B11DC72D070EE3002FF212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B11DD72D070EE4002FF212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B11DE12D070EE4002FF212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7B11DDD2D070EE4002FF212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7B11DCA2D070EE3002FF212 /* Memory Sparks */;
+			targetProxy = C7B11DDC2D070EE4002FF212 /* PBXContainerItemProxy */;
+		};
+		C7B11DE72D070EE4002FF212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7B11DCA2D070EE3002FF212 /* Memory Sparks */;
+			targetProxy = C7B11DE62D070EE4002FF212 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C7B11DED2D070EE4002FF212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7B11DEE2D070EE4002FF212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7B11DF02D070EE4002FF212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Memory Sparks/Preview Content\"";
+				DEVELOPMENT_TEAM = HJ44J54R9Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple-academy.Memory-Sparks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7B11DF12D070EE4002FF212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Memory Sparks/Preview Content\"";
+				DEVELOPMENT_TEAM = HJ44J54R9Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple-academy.Memory-Sparks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7B11DF32D070EE4002FF212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HJ44J54R9Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple-academy.Memory-SparksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memory Sparks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Memory Sparks";
+			};
+			name = Debug;
+		};
+		C7B11DF42D070EE4002FF212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HJ44J54R9Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple-academy.Memory-SparksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memory Sparks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Memory Sparks";
+			};
+			name = Release;
+		};
+		C7B11DF62D070EE4002FF212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HJ44J54R9Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple-academy.Memory-SparksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Memory Sparks";
+			};
+			name = Debug;
+		};
+		C7B11DF72D070EE4002FF212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HJ44J54R9Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple-academy.Memory-SparksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Memory Sparks";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7B11DC62D070EE3002FF212 /* Build configuration list for PBXProject "Memory Sparks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B11DED2D070EE4002FF212 /* Debug */,
+				C7B11DEE2D070EE4002FF212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B11DEF2D070EE4002FF212 /* Build configuration list for PBXNativeTarget "Memory Sparks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B11DF02D070EE4002FF212 /* Debug */,
+				C7B11DF12D070EE4002FF212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B11DF22D070EE4002FF212 /* Build configuration list for PBXNativeTarget "Memory SparksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B11DF32D070EE4002FF212 /* Debug */,
+				C7B11DF42D070EE4002FF212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B11DF52D070EE4002FF212 /* Build configuration list for PBXNativeTarget "Memory SparksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B11DF62D070EE4002FF212 /* Debug */,
+				C7B11DF72D070EE4002FF212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7B11DC32D070EE3002FF212 /* Project object */;
+}
