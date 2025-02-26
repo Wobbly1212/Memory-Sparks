@@ -11,7 +11,7 @@ import SwiftUI
 struct Memory_SparksApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CustomTabBarView()
         }
     }
 }
