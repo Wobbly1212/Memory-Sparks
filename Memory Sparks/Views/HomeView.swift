@@ -31,7 +31,7 @@ struct HomeView: View {
                     Spacer()
 
                     // Dynamic Welcome Section
-                    Text(dynamicGreeting())
+    /*                Text(dynamicGreeting())
                         .font(.largeTitle)
                         .bold()
                         .foregroundColor(.white)
@@ -66,7 +66,7 @@ struct HomeView: View {
                             }
                         }
                         .padding(.horizontal, 16) // Consistent horizontal padding
-                    }
+                    }*/
 
                     // Streak Rewards Visualization
                     VStack(alignment: .leading, spacing: 16) {
@@ -76,13 +76,14 @@ struct HomeView: View {
                         )
                     }
                     .padding(.horizontal, 16) // Consistent horizontal padding
+                    Spacer()
 
                     // Creative Insights Section
                     VStack(alignment: .leading, spacing: 16) {
-                        Text("Creative Insights")
-                            .font(.headline)
-                            .foregroundColor(.white)
-                            .padding(.bottom, 5)
+                  //      Text("Creative Insights")
+                    //        .font(.headline)
+                   //         .foregroundColor(.white)
+                   //         .padding(.bottom, 5)
 
                         InsightCardView(
                             title: "Words Written This Week",
@@ -103,19 +104,19 @@ struct HomeView: View {
                             Circle()
                                 .fill(
                                     RadialGradient(
-                                        gradient: Gradient(colors: [.yellow, .orange, .red]),
+                                        gradient: Gradient(colors: [.white, .gray.opacity(0.5), .gray]),
                                         center: .center,
                                         startRadius: 20,
                                         endRadius: 40
                                     )
                                 )
                                 .frame(width: 70, height: 70)
-                                .shadow(color: .yellow.opacity(0.7), radius: 20)
+                                .shadow(color: .black.opacity(0.7), radius: 20)
 
                             Image(systemName: "pencil")
                                 .font(.system(size: 30))
-                                .foregroundColor(.white)
-                                .shadow(color: .white.opacity(0.8), radius: 5)
+                                .foregroundColor(.black)
+                                .shadow(color: .gray.opacity(0.8), radius: 1)
                         }
                     }
                     .padding(.bottom, 30)
